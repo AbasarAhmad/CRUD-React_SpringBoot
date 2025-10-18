@@ -1,0 +1,55 @@
+HELP.md
+
+# === Maven Build ===
+target/
+*.jar
+*.war
+*.ear
+
+# === Maven Wrapper ===
+.gitattributes
+mvnw
+mvnw.cmd
+.mvn/
+
+# === STS / Eclipse ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.metadata/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# === VS Code ===
+.vscode/
+
+# === Logs & Temp Files ===
+*.log
+logs/
+tmp/
+temp/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Environment / Secrets ===
+.env
+*.local.properties
+*.properties.local
